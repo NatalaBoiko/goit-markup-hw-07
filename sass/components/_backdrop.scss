@@ -6,9 +6,10 @@
     top: 0;
     transition: opacity 1000ms, timing-function var(--timing-function), vicibility 1000ms;
     
-}
-.backdrop.is-hidden .modal{
+
+&.is-hidden .modal{
     transform: scale(0.25)  rotate(180deg);
     transition-property: transform;
     transition: transform 1000ms, timing-function var(--timing-function), vicibility 1000ms;
+}
 }
